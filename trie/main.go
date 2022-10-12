@@ -53,11 +53,8 @@ func (t *Trie) Search(w string) bool {
 		}
 		currentNode = currentNode.children[charIndex]
 	}
-	if currentNode.isEnd == true {
-		return true
-	}
 
-	return false
+	return currentNode.isEnd
 }
 
 func main() {
