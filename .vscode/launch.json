@@ -18,6 +18,12 @@
             "mode": "auto",
             "program": "${workspaceFolder}/heap/main.go"
         },
-
+        {
+            "name": "LinkedList",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/linked-list/main.go"
+        },
     ]
 }
